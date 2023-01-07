@@ -1,5 +1,3 @@
-
-
 function loader(){
     document.querySelector('.loader-container').classList.add('fade-out');
   }
@@ -9,3 +7,5 @@ function loader(){
   }
   
   window.onload = fadeOut();
+
+  
