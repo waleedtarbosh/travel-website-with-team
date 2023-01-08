@@ -294,3 +294,65 @@ header .search-bar-container label:hover{
 }
 
 /*-------------------- <!-- packages section end -->---------------------*/
+
+/*-------------------- <!-- gallery section start -->---------------------*/
+.gallery .box-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap:2rem;
+}
+
+.gallery .box-container .box{
+  flex:1 1 25rem;
+  border-radius: .5rem;
+  overflow: hidden;
+  border:1rem solid #fff;
+  box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+  position: relative;
+  
+  
+}
+
+.gallery .box-container .box .content{
+  height: 22rem;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  position: absolute;
+  top: -100%; 
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  transition: 1s;
+ 
+}
+
+.gallery .box-container .box:hover .content{
+  top:0;
+}
+
+
+.gallery .box-container .box .content h2{
+  color:var(--orange);
+  font-size: 2.5rem
+  
+}
+
+.gallery .box-container .box .content div {
+  color: #fff;
+  text-align: center;
+  width: 80%;
+  font-size: 1.5rem;
+}
+
+.gallery .box-container .box img{
+  height: 22rem;
+  width:100%;
+  object-fit: cover;
+}
+
+
+
+/*-------------------- <!-- gallery section end -->---------------------*/
