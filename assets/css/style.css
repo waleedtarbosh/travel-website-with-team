@@ -15,7 +15,9 @@
   text-decoration: none;
   transition: all 0.2s linear;
 }
-
+a{
+  text-decoration: none;
+}
 *::selection {
   background: var(--orange);
   color: #fff;
