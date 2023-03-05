@@ -662,7 +662,13 @@ section {
   }
 
 }
-
+@media (max-width:575px)
+{
+  header .navbar a{
+    display: inline-block;
+    width: 100%;
+  }
+}
 @media (max-width:450px){
 
   html{
